@@ -1,6 +1,8 @@
 import pytest
 import math
-from .. import function_practice
+import sys
+import os
+from ..helper_functions import function_practice
 
 def test_add():
     assert function_practice.performOperation(20, 5, 2, operation='add') == 27

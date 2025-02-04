@@ -1,4 +1,4 @@
-import hello_docker_image, function_practice
+from helper_functions import hello_docker_image, function_practice
 
 if __name__ == "__main__":
     print(hello_docker_image.print_message())

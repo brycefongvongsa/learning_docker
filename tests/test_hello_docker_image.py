@@ -1,7 +1,9 @@
 import pytest
-from ..hello_docker_image import print_message
+import sys
+import os
+from ..helper_functions import hello_docker_image
 
 def test_hello_docker_image():
-    assert print_message() == 'Hello docker image!'
+    assert hello_docker_image.print_message() == 'Hello docker image!'
     print("test_hello_docker_image passed")
     
