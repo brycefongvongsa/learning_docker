@@ -1,0 +1,4 @@
+Taro|0|BF
+Rui|4|SF
+Finn|4|CF
+Miso|4|AH
